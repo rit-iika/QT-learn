@@ -1,0 +1,43 @@
+Qt Creator is a cross-platform integrated development environment (IDE) with tools for designing and developing applications with the Qt application framework.
+
+You can use Qt Creator as part of the software development process, as it integrates seamlessly with other Qt tools, or use it independently.
+
+The users of Qt Creator are software engineers with C++ or Python experience.
+Qt Creator runs on Windows, Linux, and macOS desktop operating systems. It allows developers to create applications once and run them on desktop, mobile, and embedded platforms.
+
+QT widget vs QT quick:
+In the Qt world, you can't avoid the concepts of Qt Widgets and Qt Quick. You can use both in building applications with Qt, but there are a few key differences.
+
+qt widgets:
+Qt Widgets are only available for C++ (or Python if you use Qt for Python) based API and do not depend on anything else. This means you can start creating your application straight in Qt Creator by creating a widget-based application. 
+Out of the box, an application created with Qt Widgets looks like a native desktop application. However, on other platforms, such as mobile (Android or iOS) or embedded, there is no native style available for widgets. 
+You can build basic graphical user interfaces with widgets using Qt Designer, which you find inside Qt Creator. 
+Qt Widgets are suitable when you only need to target desktop platforms, and your application should closely follow the desktop's native style. However, when developing with Qt, we recommend using Qt Quick as it gives you many options for cross-platform and professional-looking UI development.
+
+qt quick:
+Qt Quick is a more modern way of creating applications with Qt providing more options for creativity. 
+Qt Quick is typically used for writing QML, which is based on JavaScript - although C++ or Python will still be needed to help with the connection to the backend. You can connect QML and C++.
+Qt Quick looks native and is available for all platforms.
+With Qt Quick, it is possible to have much more fluid user interfaces and complex animations.
+You can build Qt Quick UIs with a separate tool, Qt Design Studio, and import the designs to Qt Creator. This supports the workflow between designers, technical artists, and software developers - everyone can focus on their core strengths.
+
+With Qt Widgets, you can create UIs that look like native desktop applications. 
+
+mcqs:
+With Qt Quick, you can also develop UIs for other platforms, such as mobile and embedded.
+Qt Design Studio has a visual editor for creating complex animations with materials and effects. 
+Qt Creator has a built-in tool, Qt Designer, that you can  use when developing widgets-based applications and you need a simple UI.
+You can use Qt Creator to develop all kinds of applications, such as plain C and C++, but it has the best support for Qt and Qt Quick applications
+Qt and Qt Creator are meant for cross-platform development, which means that you can develop applications once and build them for many target platforms. Usually, you should pick the latest Qt version, but older versions might be optimized for some target devices.
+
+CTRL+R = RUN
+CTRL+K= LOCATOR
+
+kits:
+Qt Creator groups settings used for building and running projects as kits to make cross-platform and cross-configuration development easier. 
+
+Each kit consists of a set of values that define one environment, such as a device, compiler, Qt version, and debugger command to use, and some metadata, such as an icon and a name for the kit.
+In the Projects mode, you can configure how your project is built and run. You can see a list of available kits and enable or disable them for your project. The enabled kits are listed in the kit selector.
+The build errors and warnings are displayed in the Issues output pane.
+More detailed information is displayed in Compile output pane
+
